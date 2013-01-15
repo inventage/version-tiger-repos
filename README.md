@@ -1,1 +1,1 @@
-Repository which serves as source for releases as well as dependencies of the project.
+P2 repositories required for snapshere-khan.

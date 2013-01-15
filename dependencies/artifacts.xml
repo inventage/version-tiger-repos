@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:/home/b8/projects_versioning/snapshere-khan-p2/dependencies/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1358237605800'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='osgi.bundle' id='de.pdark.decentxml' version='1.4.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='131347'/>
+        <property name='download.size' value='131347'/>
+        <property name='download.md5' value='b31aff7388a3f36abc6ac151032439f2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mockito.mockito-all' version='1.9.5'>
+      <properties size='3'>
+        <property name='artifact.size' value='1581066'/>
+        <property name='download.size' value='1581066'/>
+        <property name='download.md5' value='50faa79d126d0213ab14ccb112a8b76d'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
